@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+    background: linear-gradient(90deg, rgba(0,212,255,1) 3%, rgba(7,116,148,1) 46%);
+}
+
+header h1 {
+    text-align: center;
+    color: #eee;
+}
+
+input {
+    display: block;
+    outline: 0;
+}
+
+div {
+  padding-top: 10px;  
+}
+
+fieldset {
+    margin: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}

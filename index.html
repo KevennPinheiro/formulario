@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>FORMULÁRIO DE INSCRIÇÃO</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+         <label>
+            <div>Nome completo:</div> 
+            <input type="text" required> 
+
+            <div>Genero:</div>
+            <select name="selecione"> 
+                <option></option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+            </select>
+
+            <div>Data de Nascimento:</div> 
+            <input type="date" required>
+
+            <div>CPF:</div>
+            <input id="cpf" type="text" placeholder="somente números" pattern="[0-9]{11}" required>
+
+         </label>       
+        </fieldset> 
+        
+        <fieldset>
+            <legend>Dados para criar conta</legend>
+                <div>Email:</div>
+                <input type="email" required>
+
+                <div>Confirme o Email:</div>
+                <input type="email" required>
+
+                <div>Senha:</div>
+                <input type="password" required>
+
+                <div>Confirme a Senha:</div>
+                <input type="password" required>
+
+               <button>Enviar</button>
+        </fieldset>
+
+        </form>    
+    </main>
+</body>
+</html>
